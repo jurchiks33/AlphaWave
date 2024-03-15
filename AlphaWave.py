@@ -22,13 +22,15 @@ def main():
     root.geometry(f'{width}x{height}+{x_offset}+{y_offset}')
 
     #Here coming frames for the pages.
-    frame1 = tk.Frame(root, bg='#dae1f3', bd=2, relief='solid')
-    frame2 = tk.Frame(root, bg='white', bd=2, relief='solid')
+    frame1 = tk.Frame(root, bg='#dae1f3', bd=1, relief='solid')
+    frame2 = tk.Frame(root, bg='#d9d9d9', bd=1, relief='solid')
+    frame3 = tk.Frame(root, bg='white', bd=0.5, relief='solid')
 
 
     #Place frames in layout.
     frame1.place(relx=0, rely=0, relwidth=0.25, relheight=0.6)
     frame2.place(relx=0.3, rely=0, relwidth=0.64, relheight=0.4)
+    frame3.place(relx=0.3, rely=0.40, relwidth=0.16, relheight=0.03)
 
     #Tkinter event loop.
     root.mainloop()
