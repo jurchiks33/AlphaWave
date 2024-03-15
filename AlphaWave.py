@@ -24,7 +24,7 @@ def main():
     #Here coming frames for the pages.
     frame1 = tk.Frame(root, bg='#dae1f3', bd=1, relief='solid')
     frame2 = tk.Frame(root, bg='#d9d9d9', bd=1, relief='solid')
-    frame3 = tk.Frame(root, bg='white', bd=0.5, relief='solid')
+    frame3 = tk.Frame(root, bg='#b0bac3', bd=0.5, relief='solid')
 
 
     #Place frames in layout.
