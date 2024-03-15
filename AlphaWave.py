@@ -15,3 +15,15 @@ def main():
     height = int(screen_height * 0.8)
 
     #Center the window screen.
+    x_offset = int((screen_width - width) / 2)
+    y_offset = int((screen_height - height) / 2)
+
+    #Set initial size and position of the window.
+    root.geometry(f'{width}x{height}+{x_offset}+{y_offset}')
+
+
+    #Tkinter event loop.
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
