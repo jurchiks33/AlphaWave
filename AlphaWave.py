@@ -2,11 +2,11 @@ import tkinter as tk
 
 def main():
     #Create main window for application.
-    root = tk.TK()
+    root = tk.Tk()
     root.title("AlphaWave- Trading Platform")
 
     #Background color.
-    root.configure(bg='1a1a1a')
+    root.configure(bg='#a9d08f')
 
     #Calculate dimensions  for the window to be 80% of screen size.
     screen_width = root.winfo_screenwidth()
