@@ -35,6 +35,7 @@ def main():
     frame11 = tk.Frame(root, bg='white', bd=0.5, relief='solid')
     frame12 = tk.Frame(root, bg='white', bd=0.5, relief='solid')
     frame13 = tk.Frame(root, bg='white', bd=0.5, relief='solid')
+    frame14 = tk.Frame(root, bg='white', bd=0.5, relief='solid')
 
 
     #Place frames in layout.
@@ -51,6 +52,7 @@ def main():
     frame11.place(relx=0.80, rely=0.56, relwidth=0.2, relheight=0.03)
     frame12.place(relx=0.80, rely=0.59, relwidth=0.2, relheight=0.03)
     frame13.place(relx=0.80, rely=0.62, relwidth=0.2, relheight=0.03)
+    frame14.place(relx=0.80, rely=0.65, relwidth=0.2, relheight=0.03)
 
     #Tkinter event loop.
     root.mainloop()
